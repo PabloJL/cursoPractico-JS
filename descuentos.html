@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/stylesDesc.css">
+    <title>Porcentajes y Descuentos | Curso Practico de JS</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y Descuentos</h1>
+        <p>Este es el segundo taller del curso práctico de JavaScript</p>
+    </header>
+    <main>
+        <section class="discount-container">
+            <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+                <div class="discount-form">
+                    <form action="">
+                        <div class="inputs">
+                            <label for="inputPrice">Precio de tu producto</label>
+                            <input type="number" id="inputPrice">
+                        </div>  
+                        <div class="inputs">
+                            <label for="inputDisc">Descuento</label>
+                            <input type="number" id="inputDisc">
+                        </div>
+                        <button type="button" onclick="onClickButtonPriceDiscount()"> Calcular</button>
+                        <p id="resultP"></p>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <script src="./descuentos.js"></script>
+</body>
+</html>

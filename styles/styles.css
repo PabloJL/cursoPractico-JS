@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:'Open Sans', sans-serif; /*Ya que gran parte del proyecto usa esta fuente solo en las secciones que usen otra ahí la pondremos*/
+    color: black;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #262A53;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 2rem;
+}
+
+.calculadora__figuras{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.calculadora__figuras-cuadrado{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    height: auto;
+    text-align: center;
+    background-color: #003638;
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+    color: #F3F2C9;
+}
+
+.calculadora__figuras-triangulo{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    height: auto;
+    text-align: center;
+    background-color: #CD113B;
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+    color: black;
+}
+
+.calculadora__figuras-circulo{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    height: auto;
+    text-align: center;
+    background-color: #2940D3;
+    border-radius: 8px 8px 8px 8px;
+    padding: 20px;
+    color: black;
+}
+
+.form-cuadrado{
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+.botones{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    background-color: #53B8BB;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.inputs-triangulo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+input{
+    width: 40%;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 4px 4px 4px 4px;
+    border-style: none;
+}
+
+.calculadora__figuras-triangulo button{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: #444444;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none;
+
+}
+
+.calculadora__figuras-circulo button{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: black;
+    background-color: #FFEDA3;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none;
+
+}

@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:'Open Sans', sans-serif; /*Ya que gran parte del proyecto usa esta fuente solo en las secciones que usen otra ahí la pondremos*/
+    color: black;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FAF2DA;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-bottom:5px;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+header>p{
+    font-size:1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.discount-container{
+    width: 80%;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgba( 3, 55, 123, 1.0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+
+}
+
+.discount-form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+.inputs{
+    margin-bottom: 20px;
+}
+.inputs input{
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 4px 4px 4px 4px;
+    border-style: none;
+}
+
+button{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px 4px;
+    border-style: none;
+    background-color: #29BB89;
+    color: #F1ECC3;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+#resultP{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px 8px;
+    background-color:#B8DFD8;
+    font-size: 1.8rem ;
+    color:#000;
+    font-weight: 600;
+    text-align: center;
+}
